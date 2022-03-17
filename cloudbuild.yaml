@@ -23,6 +23,7 @@ steps:
 # Rather than writing a build step to push this image, you can simply list the
 # image below and it will automatically be uploaded to Google Cloud Container
 # Registry.
+# Adding a comment to test the branching experience [Kapil Digani]
 images:
 - 'gcr.io/$PROJECT_ID/helloworld-image'
 
